@@ -17,6 +17,7 @@ int main() {
     Timer.printTotalUpTime();
 
     PTData Data(Timer);
+    
     string filePath = "/home/mitja/Documents/PandaTime";
     Data.setWorkingDir(filePath);
     Data.saveToFile();
